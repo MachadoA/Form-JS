@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(/images/bc-form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .contact{
     width: 370px;
     height: auto;
@@ -71,6 +78,7 @@ textarea:focus{
     height: 55px;
     cursor: pointer;
     border: none;
+    background-color: #BFD9D9;
 }
 .submit:focus{
     outline: #ff7a7a;
@@ -88,7 +96,6 @@ textarea:focus{
     display: flex;
     align-items: center;
     justify-content: center;
-    /* display: none; */
 }
 .yes{
     margin-right: 6px;
@@ -108,7 +115,7 @@ textarea:focus{
     textarea{
         width: 900px;
     }
-    .enviar{
+    .submit{
         width: 380px;
     }
 }
