@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Author: Ana Amaral">
+    <link rel="stylesheet" href="/CSS/contact.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    
+    <title>Form</title>
+    
+</head>
+<body>
+    <div class="container">         
+        <section class="contact">
+            <h1>Contacto</h1>
+            <form class="form" action="https://formspree.io/f/mkneqlde" method="post">
+                <div class="custom-input">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" aria-label="name"  placeholder="Nome">
+                    <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                    <p class="alert-error">Preencha o Nome</p>
+                </div>
+                <div class="custom-input">
+                    <label for="last-name"></label>
+                    <input type="text" id="last-name" name="lastName" aria-label="lastName"  placeholder="Apelido">
+                    <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                    <p class="alert-error">Preencha o Apelido</p>
+                </div>
+                <div class="custom-input">
+                    <label for="email"></label>
+                    <input type="email" id="email" name="email" aria-label="email" placeholder="E-mail">
+                    <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                    <p class="alert-error">Preencha o E-mail</p>
+                </div>
+                <div class="custom-input">
+                    <label for="subject"></label>
+                    <input type="text" id="subject" name="subject" aria-label="subject" placeholder="Assunto"/>
+                    <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                    <p class="alert-error">Preencha o Assunto</p>
+                </div>
+                <div class="custom-input">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="40" rows="8" aria-label="message" placeholder="Deixe a sua mensagem"></textarea>
+                    <img class="icon-error" src="images/icon-error.svg" alt="icon error">
+                    <p class="alert-error">Mensagem vazia</p>
+                </div>
+                <button type="submit" class="submit" aria-label="submit">Enviar</button>
+                <article id="my-form-status">
+                    <img class="yes" src="images/yes.png" alt="icon yes" width="25" height="25">
+                    <p id="my-form-status-message"></p>
+                </article>
+            </form>
+        </section>
+    </div>
+    
+    <script src="JS/script.js"></script>
+</body>
+</html>

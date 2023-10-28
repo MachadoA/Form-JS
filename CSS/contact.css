@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.contact{
+    width: 370px;
+    height: auto;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 20px auto;
+}
+form{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    font-size: 1em;
+    padding: 10px 0;
+    width: 365px;
+}
+input,
+textarea{
+    display: block;
+    width: 350px;
+    border-radius: 18px;
+    font-size: 16px;
+    padding: 0;
+    border: 1px solid rgba(255, 192, 203, 0.267);
+    margin-top: 25px;
+    padding-left: 18px;
+    font-family: inherit;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 14px 20px;
+}
+input{
+    height: 55px;
+}
+textarea{
+    padding: 10px 0;
+    padding-left: 18px;
+    height: 110px;
+}
+input:focus,
+textarea:focus{
+    outline: #ff7a7a;
+    border: 2px solid #ff7a7a;
+}
+.custom-input{
+    position: relative;
+}
+.icon-error{
+    position: absolute;
+    top: 41px;
+    right: 20px;
+    display: none;
+}
+.alert-error{
+    text-align: right;
+    padding: 8px 0;
+    width: 340px;
+    font-size: 12px;
+    color: #ff7a7a;
+    font-weight: bold;
+    display: none;
+}
+.submit{
+    margin-top: 25px;
+    border-radius: 18px;
+    width: 180px;
+    height: 55px;
+    cursor: pointer;
+    border: none;
+}
+.submit:focus{
+    outline: #ff7a7a;
+    border: 2px solid #ff7a7a;
+}
+.submit:hover{
+    background-color: #ff7a7a;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+#my-form-status{
+    padding: 20px 0;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* display: none; */
+}
+.yes{
+    margin-right: 6px;
+    display: none;
+}
+
+/****** media queries *******/
+
+@media(min-width: 950px){
+    .contact{
+        width: 950px;
+    }
+    form{
+        width: 945px;
+    }
+    input,
+    textarea{
+        width: 900px;
+    }
+    .enviar{
+        width: 380px;
+    }
+}
+
+
+
+
