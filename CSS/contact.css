@@ -111,7 +111,7 @@ textarea:focus{
 
 @media(min-width: 950px){
     body{
-        background-image: url(/images/bc-form.jpg);
+        background-image: url(/images/bc-form-desktop.png);
     }
     .contact{
         width: 950px;
