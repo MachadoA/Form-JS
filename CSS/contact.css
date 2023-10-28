@@ -8,6 +8,7 @@ body{
     background-image: url(/images/bc-form-mobile.png);
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .contact{
@@ -113,16 +114,17 @@ textarea:focus{
         background-image: url(/images/bc-form-desktop.png);
     }
     .contact{
-        width: 950px;
+        width: 830px;
     }
     form{
-        width: 945px;
+        width: 750px;
+        margin: auto;
     }
     input,
     textarea,
     .alert-error,
     .submit{
-        width: 900px;
+        width: 750px;
     }
 
 }
