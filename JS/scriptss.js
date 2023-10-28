@@ -44,7 +44,16 @@ async function handleSubmit(event) {
     status.innerHTML = "Preencha os campos em branco por favor";
   }
 
-
+  function clearErrorMessages() {
+    inputs.forEach(customInput => {
+        let input = customInput.querySelector('input');
+        let errorIcon = customInput.querySelector('.icon-error');
+        let errorText = customInput.querySelector('.alert-error');
+        if (input) {input.input.value = '';}
+        if (errorIcon) {errorIcon.style.display = 'none';}
+        if (errorText) {errorText.error.style.display = 'none';}
+    })
+}
 
 function hideStatusMessage() {
   setTimeout(function () {
