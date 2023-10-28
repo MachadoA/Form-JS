@@ -32,7 +32,7 @@ form{
 input,
 textarea{
     display: block;
-    width: 350px;
+    width: 320px;
     border-radius: 18px;
     font-size: 16px;
     padding: 0;
@@ -76,7 +76,7 @@ textarea:focus{
 .submit{
     margin-top: 25px;
     border-radius: 18px;
-    width: 340px;
+    width: 320px;
     height: 55px;
     cursor: pointer;
     border: none;
@@ -114,17 +114,17 @@ textarea:focus{
         background-image: url(/images/bc-form-desktop.png);
     }
     .contact{
-        width: 830px;
+        width: 630px;
     }
     form{
-        width: 750px;
+        width: 550px;
         margin: auto;
     }
     input,
     textarea,
     .alert-error,
     .submit{
-        width: 750px;
+        width: 550px;
     }
 
 }
